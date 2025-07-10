@@ -2,7 +2,7 @@
 
 > _“Documentation is the blueprint of collaboration.” — Probably a Senior Dev Somewhere_
 
-Welcome to the **Template Nexus**, the central command station for all your **Issue** and **Pull Request** template needs across the galaxy (a.k.a. our GitHub organization).
+Welcome to the **Github Templates**, the central command station for all your **Issue** and **Pull Request** template needs across the galaxy (a.k.a. our GitHub organization).
 
 ## 📦 What's in the Box?
 
@@ -13,25 +13,18 @@ This repo contains standardized templates to ensure our workflow is:
 
 ### 🧩 Templates Included
 
+#### Issues
+
 | Template Type | Purpose |
 |---------------|---------|
-| `bug_report.md` | For squashing those interdimensional code anomalies |
-| `feature_request.md` | For requesting new features and artifacts |
-| `pull_request_template.md` | For making clean, reviewable, merge-ready PRs |
-| `.github/config.yml` | Optional automation settings for forms |
+| `epic.md` | For squashing those interdimensional code anomalies |
+| `task.md` | For requesting new features and artifacts |
 
-## 🛠 Setup Instructions
+#### Pull Requests
 
-1. Clone this repo (or just fork it like a proper open source archaeologist):
-   ```bash
-   git clone https://github.com/YOUR-ORG/github-templates.git
-
-2. In any target repo, configure a .github directory like so:
-your-repo/
-└── .github/
-    └── ISSUE_TEMPLATE/
-    └── PULL_REQUEST_TEMPLATE.md
-Or even better, use this repo directly via GitHub’s organization-wide template support.
+| Template Type | Purpose |
+|---------------|---------|
+| `task.md` | For making clean, reviewable, merge-ready PRs |
 
 ## 🧬 Philosophy
 
