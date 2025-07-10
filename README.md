@@ -29,7 +29,9 @@ This repo contains standardized templates to ensure our workflow is:
 ## 🧬 Philosophy
 
 Standardized templates reduce dev friction ⚙️
+
 Clear expectations make reviews snappier 🚀
+
 Consistency beats chaos (unless you code in vim inside emacs inside docker) 🌀
 
 ## 🧙‍♂️ Contributing
