@@ -11,6 +11,8 @@ This repo contains standardized templates to ensure our workflow is:
 - 🛸 Efficient
 - 🧪 Testable (not literally, but you get the idea)
 
+Based on [GitHub default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) 
+
 ### 🧩 Templates Included
 
 #### Issues
