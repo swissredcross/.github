@@ -42,8 +42,7 @@ Consistency beats chaos (unless you code in vim inside emacs inside docker) 🌀
 ## 🧙‍♂️ Contributing
 Feel free to open an issue or PR if you’d like to suggest improvements or summon new templates. May your commits be small and your diffs be readable.
 
-## 📜 License
-MIT — because freedom.
+---
 
 > “The templates are strong with this one.”
 — Obi-Wan Devnobi
