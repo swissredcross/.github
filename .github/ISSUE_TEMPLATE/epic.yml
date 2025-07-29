@@ -8,35 +8,19 @@ body:
   - type: input
     id: ticketnumber
     attributes:
-      label: "Zendesk Ticket Number"
+      label: "📧 Context"
       description: "Ticket Number from Zendesk"
       value: "[resolves/fixes 🎟️ #TICKETNUMBER](https://srkcrs.zendesk.com/agent/tickets/TICKETNUMBER)"
     validations:
       required: false
-  - type: markdown
+  - type: textarea
+    id: user-story
     attributes:
-      value: "# ✍️ User Story"
-  - type: input
-    id: user-role
-    attributes:
-      label: "As a"
-      description: 'user role, e.g., "volunteer" without "As a"'
-      placeholder: "user"
-    validations:
-      required: true
-  - type: input
-    id: user-action
-    attributes:
-      label: "I want to"
-      description: 'user action, e.g., "a Call To Action for donations" without "I want to"'
-      placeholder: "a Call To Action for donations"
-    validations:
-      required: true
-  - type: input
-    id: user-benefit
-    attributes:
-      label: "So that"
-      description: 'user benefit, e.g., "I can quickly make a donation" without "So that"'
-      placeholder: "I can quickly make a donation"
+      label: "✍️ User Story"
+      description: "As a [user role], I want to [user action] so that [user benefit]."
+      value: |
+        **As a** role
+        **I want to** action
+        **So that** benefit
     validations:
       required: true
