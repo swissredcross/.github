@@ -1,6 +1,13 @@
-# 📧 Issue
+---
+name: Pull Request
+about: Use this template to create a Pull Request.
+title: ""
+projects: ["swissredcross/13"]
+---
 
-#{issuenr}
+# 📧 Linked Issue
+
+resolves #{issuenr}
 
 ## 🔗 Links with example data
 
