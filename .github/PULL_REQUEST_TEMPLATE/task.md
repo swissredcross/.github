@@ -1,8 +1,8 @@
 ---
 name: Pull Request
 about: Use this template to create a Pull Request.
-title: ''
-projects: ['swissredcross/13']
+title: "<type>(<optional scope>): <description>"
+projects: ["swissredcross/13"]
 ---
 
 # 📧 Linked Issue
