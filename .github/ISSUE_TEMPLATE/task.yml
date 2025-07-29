@@ -10,13 +10,16 @@ body:
     attributes:
       label: "Zendesk Ticket Number"
       description: "Ticket Number from Zendesk"
-      placeholder: "12345"
+      value: "[resolves/fixes 🎟️ #TICKETNUMBER](https://srkcrs.zendesk.com/agent/tickets/TICKETNUMBER)"
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: # ✍️ User Story
   - type: input
     id: user-role
     attributes:
-      label: "User Story Role (As a ...)"
+      label: "As a"
       description: 'user role, e.g., "volunteer" without "As a"'
       placeholder: "user"
     validations:
@@ -24,7 +27,7 @@ body:
   - type: input
     id: user-action
     attributes:
-      label: "User Story Action (I want ...)"
+      label: "I want to"
       description: 'user action, e.g., "a Call To Action for donations" without "I want to"'
       placeholder: "a Call To Action for donations"
     validations:
@@ -32,7 +35,7 @@ body:
   - type: input
     id: user-benefit
     attributes:
-      label: "User Story benefit (So that ...)"
+      label: "So that"
       description: 'user benefit, e.g., "I can quickly make a donation" without "So that"'
       placeholder: "I can quickly make a donation"
     validations:
@@ -42,7 +45,7 @@ body:
     attributes:
       label: "Requirements"
       description: "Provide clear and actionable requirements for the task."
-      placeholder: |
+      value: |
         - [ ] Requirement 1
         - [ ] Requirement 2
     validations:
@@ -52,30 +55,8 @@ body:
     attributes:
       label: "Supporting Links"
       description: "Provide links to design, documentation, or other relevant resources."
-      placeholder: |
+      value: |
         - [Design Figma](figma_url)
         - [Documentation / Spec](doc_url)
     validations:
       required: false
-  - type: markdown
-    attributes:
-      value: |
-        # 📧 Context (Original ticket)
-
-        [resolves/fixes 🎟️ #{{ ticketnumber }}](https://srkcrs.zendesk.com/agent/tickets/{{ ticketnumber }})
-
-        # ✍️ User Story
-
-        **As a** {{ user-role }},
-        **I want to** {{ user-action }},
-        **so that** {{ user-benefit }}.
-
-        ---
-
-        ## 👩‍💻 Requirements
-
-        {{ requirements }}
-
-        ## 🔗 Supporting Links
-
-        {{ links }}
