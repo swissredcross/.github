@@ -15,7 +15,7 @@ body:
       required: false
   - type: markdown
     attributes:
-      value: # ✍️ User Story
+      value: "# ✍️ User Story"
   - type: input
     id: user-role
     attributes:
