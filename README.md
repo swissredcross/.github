@@ -17,6 +17,8 @@ Based on [GitHub default community health file](https://docs.github.com/en/commu
 
 #### Issues
 
+Creating a Blank Issue is allowed as well
+
 | Template Type | Purpose |
 |---------------|---------|
 | `epic.md` | For squashing those interdimensional code anomalies |
@@ -27,6 +29,7 @@ Based on [GitHub default community health file](https://docs.github.com/en/commu
 | Template Type | Purpose |
 |---------------|---------|
 | `task.md` | For making clean, reviewable, merge-ready PRs |
+| `blank.md` | For opening a blank PR |
 
 ## 🧬 Philosophy
 
