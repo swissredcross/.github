@@ -35,6 +35,22 @@ body:
     validations:
       required: true
   - type: textarea
+    id: visualization
+    attributes:
+      label: "Visual References"
+      description: "Add screenshots or mockups that illustrate the requested change. Include before and after examples if helpful."
+      placeholder: "Add an image or link to a specific design frame."
+    validations:
+      required: false
+  - type: textarea
+    id: naming
+    attributes:
+      label: "Suggested Names"
+      description: "Suggest names for new components, fields, or content types. Include editorial labels and technical identifiers where relevant."
+      placeholder: "Name: description/reasoning"
+    validations:
+      required: false
+  - type: textarea
     id: links
     attributes:
       label: "Supporting Links"
